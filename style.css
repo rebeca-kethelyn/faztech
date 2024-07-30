@@ -1,0 +1,74 @@
+/*Navegação*/ 
+.navbar-brand img{
+    width: 120px;
+}
+
+.nav-item a{
+    color: #063470;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+}
+
+
+/*Titulos*/ 
+.title-sections{
+    color: #063470;
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 80px 0px 40px 0px;
+}
+
+
+/*card*/ 
+.card{
+    border: none;
+}
+
+.card-img-top:hover{
+    filter: brightness(50%);
+    border-radius: 15px;
+}
+
+.card-title{
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+/*Container formulario e sobre*/ 
+
+.container-principal{
+    margin-top: 50px;
+    background-color: #0450AF;
+}
+
+.container-sobre {
+    border-right: 1px solid rgba(209, 209, 209, 0.842);
+    margin: 50px;
+}
+
+
+
+
+/*Footer*/ 
+.footer-links li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-links li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links li i, .footer-links i{
+    color: white;
+    font-size: 20px;
+    padding: 10px 5px 0px 0px;
+}
+
+
