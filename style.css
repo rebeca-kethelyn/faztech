@@ -52,6 +52,13 @@
 }
 
 
+.diferenciais i{
+    font-size: 40px;
+    background-color: #0450AF;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
 
 
 /*Footer*/ 
