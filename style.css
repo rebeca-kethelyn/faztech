@@ -23,16 +23,16 @@
 
 
 /*card*/ 
-.card{
+.card-home{
     border: none;
 }
 
-.card-img-top:hover{
+.card-home > .card-img-top:hover{
     filter: brightness(50%);
     border-radius: 15px;
 }
 
-.card-title{
+.card-home > .card-body .card-title{
     font-size: 17px;
     text-align: center;
 }
@@ -61,10 +61,46 @@
 }
 
 
+/*pagina nossos cursos*/ 
+.nossos-cursos p{
+    text-align: start;
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+}
+
+.card-curso{
+    border-radius: 20px;
+}
+
+.card-curso img{
+    margin: auto;
+    padding: 20px;
+}
+
+.card-curso:hover{
+    border: 1px solid #024EAE;
+}
+
+.card-curso h2{
+    color: #063470;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-curso p{
+    text-align: start;
+}
+
+
+
+
 /*Footer*/ 
 .footer-links li{
     list-style: none;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer-links li a{
@@ -75,7 +111,7 @@
 .footer-links li i, .footer-links i{
     color: white;
     font-size: 20px;
-    padding: 10px 5px 0px 0px;
+    padding: 10px 10px 0px 0px;
 }
 
 
