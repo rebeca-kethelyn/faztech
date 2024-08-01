@@ -82,6 +82,7 @@
 
 .card-curso:hover{
     border: 1px solid #024EAE;
+    box-shadow: 0px 0px 3px 1px #0c499997;
 }
 
 .card-curso h2{
@@ -94,8 +95,18 @@
     text-align: start;
 }
 
+.btn-curso{
+    background-color: #005CAA;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px 1px #0c499997;
+}
 
-
+.btn-curso:hover{
+    background-color: #0a7de1;
+    color: white;
+    box-shadow: 0px 0px 7px 3px rgba(18, 103, 215, 0.538);
+}
 
 /*Footer*/ 
 .footer-links li{
