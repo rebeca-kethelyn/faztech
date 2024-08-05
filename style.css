@@ -1,3 +1,7 @@
+*{
+    font-family: "Montserrat", sans-serif;
+
+}
 /*Navegação*/ 
 .navbar-brand img{
     width: 120px;
@@ -108,7 +112,86 @@
     box-shadow: 0px 0px 7px 3px rgba(18, 103, 215, 0.538);
 }
 
+/*Pagina de curso*/ 
+.conteudo{
+    color: green;
+    font-size: 20px;
+    -webkit-text-stroke: 1px;
+    padding: 2px;
+}
+.nav-pills .nav-link{
+    border: 1px solid #005CAA;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 8px 25px;
+    color: #005CAA;
+    font-weight: 500;
+    box-shadow:1px 1px 1px 1px #0a7de13d;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.nav-pills .nav-link:hover{
+    background-color: #006bc9;
+    color: white;
+    box-shadow:2px 2px 4px 2px #1b90f752;
+    transition: 0.3s;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #005CAA;
+}
+
+.titulo-nos-cursos{
+    color: #005CAA;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 30px 0 15px 0;
+
+}
+
+/*formulario do curso*/
+.contato-whats{
+    background-color: #05A528 ;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.contato-whats:hover{
+    color: white;
+    background-color: #05bf2d ;
+    box-shadow:2px 2px 4px 2px #04df3354;
+    transition: 0.3s;
+
+}
+
+.input-group-text{
+    background-color: #FFF; 
+    border-radius: 5px 0px 0px 5px;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin: auto;
+}
+
+.input-group{
+    margin-bottom: 8px;
+}
+
+.form-control{
+    background-color: #FFF; 
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+
+
 /*Footer*/ 
+.footer{
+    font-size: 15px;
+}
 .footer-links li{
     list-style: none;
     margin-bottom: 10px;
@@ -121,7 +204,7 @@
 
 .footer-links li i, .footer-links i{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 10px 0px 0px;
 }
 

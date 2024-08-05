@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
+        <a id="robbu-whatsapp-button" target="_blank"
+            href="https://api.whatsapp.com/send?phone=554331520044&text=Ol%C3%A1,%20estou%20vindo%20pelo%20site.%20%0APoderia%20me%20ajudar?%20">
+            <img
+                src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg"
+                alt="whatsapp">
+        </a>
+        <title>Faztech</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md p-1 w-100">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html"><img
+                        src="imagens/logo_256px.png"
+                        alt="Marca"></a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
+                        <li class="nav-item">
+                            <a class="nav-link "
+                                href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link "
+                                href="/sobre-nos.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="/nossos-cursos.html"
+                                class="nav-link">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="/fale-conosco.html"
+                                class="nav-link">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="/duvidas-frequentes.html"
+                                class="nav-link">Duvidas frequentes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Inicio dos banners -->
+            <section class="carousel slide" data-ride="carousel"
+                data-bs-ride="carousel" id="ads">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="imagens/banner1red.jpg" alt="banner 1"
+                            class="d-none d-md-block w-100">
+                        <img src="imagens/bannersmall.jpg" alt="banner 1"
+                            class="d-block d-md-none w-100">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="imagens/banner1red.jpg" alt="banner 1"
+                            class="d-none d-md-block w-100">
+                        <img src="imagens/bannersmall.jpg" alt="banner 1"
+                            class="d-block d-md-none w-100">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" data-bs-target="#ads"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button class="carousel-control-next" data-bs-target="#ads"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Proximo</span>
+                </button>
+            </section>
+            <!-- fim dos banners -->
+
+            <section class="d-flex container d-flex flex-wrap mb-3">
+                <!-- Sobre o curso-->
+                <div class="container my-5 col-lg-8 col-md-12">
+                    <nav>
+                        <div class="nav nav-pills mb-3" id="pills-tab"
+                            role="tablist">
+                            <button class="nav-link active"
+                                id="sobre-o-curso-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#sobre-o-curso"
+                                type="button" role="tab"
+                                aria-controls="sobre-o-curso"
+                                aria-selected="true">Sobre o curso</button>
+                            <button class="nav-link" id="conteudo-do-curso-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#conteudo-do-curso"
+                                type="button"
+                                role="tab" aria-controls="conteudo-do-curso"
+                                aria-selected="false">Conteudo</button>
+                            <button class="nav-link" id="indicado-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#indicado" type="button"
+                                role="tab" aria-controls="indicado"
+                                aria-selected="false">Indicado</button>
+
+                        </div>
+                    </nav>
+
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active"
+                            id="sobre-o-curso"
+                            role="tabpanel"
+                            aria-labelledby="sobre-o-curso-tab">
+                            <h2 class="titulo-nos-cursos">Sobre o curso X</h2>
+                            <p class="mb-5">Lorem Ipsum is simply dummy text of
+                                the printing
+                                and typesetting industry. Lorem Ipsum has been
+                                the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley
+                                of type and scrambled it to make a type specimen
+                                bookLorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever
+                                since the 1500s, when an unknown printer took a
+                                galley of type and scrambled it to make a type
+                                specimen booken
+                                bookLorem Ipsum is simply dummy text of the
+                                printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever
+                                since the 1500s, when an unknown printer took a
+                                galley of type and scram</p>
+                            <p><i class="bi bi-clock p-2"
+                                    style="color: #005CAA; -webkit-text-stroke: 0.7px;"></i>
+                                Carga horária de X
+                                horas</p>
+                            <p><i class="bi bi-calendar-week p-2"
+                                    style="color: #005CAA; -webkit-text-stroke: 0.5px;"></i>
+                                Duração de X
+                                meses</p>
+                            <p><i class="bi bi-credit-card p-2"
+                                    style="color: #005CAA; -webkit-text-stroke: 0.5px;"></i>
+                                Pagamento
+                                facilitado</p>
+
+                            <h2 class="titulo-nos-cursos mt-5">Conteudo do curso</h2>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing</p>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing</p>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing</p>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing</p>
+
+                            <h2 class="titulo-nos-cursos">Este curso é pra você
+                                que</h2>
+                            <ul>
+                                <li class="mt-2">Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Quo placeat culpa
+                                    cupiditate rerum recusandae deleniti
+                                    voluptas suscipit error sint magni!</li>
+                                <li class="mt-2">Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Voluptatibus itaque
+                                    doloremque dolorum.</li>
+                                <li class="mt-2">Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Autem, consectetur soluta
+                                    velit quis tenetur vero.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-pane fade" id="conteudo-do-curso"
+                            role="tabpanel"
+                            aria-labelledby="conteudo-do-curso-tab">
+                            <h2 class="titulo-nos-cursos">Conteudo do curso</h2>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing Lorem Ipsum is
+                                simply dummy text of the printing</p>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing Lorem Ipsum is
+                                simply dummy text of the printing</p>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing Lorem Ipsum is
+                                simply dummy text of the printing</p>
+                            <p><i class="bi bi-check-lg conteudo"></i> Lorem
+                                Ipsum is
+                                simply dummy text of the printing Lorem Ipsum is
+                                simply dummy text of the printing</p>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="indicado"
+                            role="tabpanel"
+                            aria-labelledby="indicado-tab">
+                            <h2 class="titulo-nos-cursos">Este curso é pra você
+                                que</h2>
+                            <ul>
+                                <li class="mt-2">Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Quo placeat culpa
+                                    cupiditate rerum recusandae deleniti
+                                    voluptas suscipit error sint magni!</li>
+                                <li class="mt-2">Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Voluptatibus itaque
+                                    doloremque dolorum.</li>
+                                <li class="mt-2">Lorem ipsum dolor sit amet
+                                    consectetur
+                                    adipisicing elit. Autem, consectetur soluta
+                                    velit quis tenetur vero.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Formulário-->
+                <div
+                    class="col-lg-3 col-md-6 d-md-flex d-lg-block m-md-auto mt-lg-5 m-sm-auto">
+                    <div class="p-4"
+                        style="background-color: #005CAA; border-radius: 10px;">
+                        <h3 class="text-white mb-4"
+                            style="font-size: 20px; text-align: center;">Entre
+                            em contato <br> conosco e saiba mais!</h3>
+
+                        <form action class="d-flex flex-column col-11 m-auto">
+
+                            <div class="input-group">
+                                <div class="input-group-append">
+                                    <div class="input-group-text">
+                                    <i class="bi bi-person-fill"></i></div>
+                                </div>
+                                <input type="text" id="txtName"
+                                    class="form-control mb-3" name="Nome"
+                                    placeholder="Nome">
+                            </div>
+
+                            <div class="input-group">
+                                <div class="input-group-append">
+                                    <div class="input-group-text"
+                                        style="background-color: #FFF"><i
+                                            class="bi bi-envelope-fill"></i>
+                                    </div>
+                                </div>
+                                <input type="email" id="txtEmail"
+                                    class="form-control mb-3" name="E-mail"
+                                    placeholder="E-mail">
+                            </div>
+
+                            <div class="input-group">
+                                <div class="input-group-append">
+                                    <div class="input-group-text">
+                                        <i class="bi bi-telephone-fill"></i>
+                                    </div>
+                                </div>
+                                <input type="tel" id="txtTel"
+                                    class="form-control mb-3" name="Telefone"
+                                    placeholder="Telefone">
+                            </div>
+
+                            <button type="submit"
+                                class="btn btn-light m-auto px-5" style="font-size: 14px; font-weight: 500;">Enviar</button>
+                        </form>
+
+                        <div class="d-flex flex-column">
+                            <h4 class="text-white mt-5"
+                                style="font-size: 20px; text-align: center;">Deseja
+                                falar conosco pelo whatsapp?</h4>
+                            <a href class="btn m-auto mt-2 contato-whats"><i
+                                    class="bi bi-whatsapp"></i> Entre em
+                                contato</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="border-top text-muted footer navbar-fixed-bottom"
+            style="background-color: #005CAA;">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div
+                        class="col-12 col-md-3 py-3 text-center d-flex flex-column">
+
+                        <ul class="footer-links text-md-start">
+                            <h3 class="text-light mb-3">Institucional</h3>
+                            <li><a href="/sobre-nos.html">Sobre nós</a></li>
+                            <li><a href="/nossos-cursos.html">Nossos
+                                    cursos</a></li>
+                            <li><a href="/duvidas-frequentes.html">Duvidas
+                                    Frequentes</a></li>
+                            <li><a href="/fale-conosco.html">Contato</a></li>
+                            <li><a
+                                    href="/diferenciais.html">Diferenciais</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div
+                        class="col-12 col-md-3 py-3 text-center d-flex flex-column">
+                        <ul class="footer-links text-md-start">
+                            <h3 class="text-light mb-3">Atendimento</h3>
+                            <li><i class="bi bi-whatsapp"></i><a
+                                    href="https://api.whatsapp.com/send?l=pt&phone=554331520044">Whatsapp:
+                                    <br> (43)
+                                    3152-0044</a></li>
+                            <li><i class="bi bi-telephone"></i><a
+                                    href="tel:+554331520044">Telefone: <br> (43)
+                                    3152-0044</a></li>
+                            <li class=" d-inline"><a
+                                    href="https://www.instagram.com/faztechcursos"><i
+                                        class="bi bi-instagram px-4"></i></a></li>
+                            <li class=" d-inline"><a
+                                    href="https://www.facebook.com/faztechcursos/"><i
+                                        class="bi bi-facebook"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="col-12 col-md-3 py-3 text-center d-flex flex-column">
+
+                        <ul class="footer-links text-md-start">
+                            <h3 class="text-light mb-3">Endereço</h3> <a
+                                href="#"></a>
+                            <li>
+                                <p class="text-light"><i
+                                        class="bi bi-geo-alt"></i>Rua Flamingos,
+                                    440 Centro <br> Arapongas, PR</p>
+                            </li>
+                            <li>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.364122300037!2d-51.436096924674395!3d-23.411210278903354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eca3e07d76f697%3A0x320e78b6fa3de9d0!2sR.%20Flamingos%2C%20440%20-%20Centro%2C%20Arapongas%20-%20PR%2C%2086700-040!5e0!3m2!1spt-BR!2sbr!4v1722223909706!5m2!1spt-BR!2sbr"
+                                    width="170" height="140" style="border:0;"
+                                    allowfullscreen loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="mapas">
+                                </iframe>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p style="text-align: center;" class=" text-light m-0">
+                    Copyright
+                    &copy; 2024 FAZTECH. Todos os direitos reservados.
+                </p>
+            </div>
+
+        </footer>
+
+    </body>
+</html>
