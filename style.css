@@ -19,10 +19,17 @@
 .title-sections{
     color: #063470;
     font-size: 1.6rem;
-    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-align: center;
     margin: 80px 0px 40px 0px;
+}
+
+.title-sections-sobre{
+    color: #063470;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
 }
 
 
@@ -186,7 +193,27 @@
     border-radius: 9px;
 }
 
+/*sobre nos*/ 
 
+#chamada-sobre-nos{
+    background-color: #005CAA;
+    max-width: 370px;
+}
+
+#chamada-sobre-nos a{
+    color: white;
+    text-decoration: none;
+}
+
+#chamada-sobre-nos:hover{
+   background-color: #0170d1;
+   box-shadow: 0px 0px 3px 1px #0262df97;
+    transition: 0.3s;
+}
+
+#chamada-sobre-nos i{
+    margin-right: 5px;
+}
 
 /*Footer*/ 
 .footer{
@@ -208,4 +235,8 @@
     padding: 10px 10px 0px 0px;
 }
 
-
+@media (max-width: 992px) {
+    #chamada-reversa-mobile {
+        flex-direction: column-reverse;
+    }
+}
