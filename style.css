@@ -237,6 +237,35 @@
     margin-right: 5px;
 }
 
+
+/*Perguntas frequentes*/ 
+.accordion {
+    --bs-accordion-btn-color: black;
+    --bs-accordion-btn-bg: white;
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: #0450AF;
+}
+
+.accordion-item:hover{
+    --bs-accordion-btn-bg: #0450AF;
+    --bs-accordion-active-bg: #0450AF;
+}
+
+.accordion-item button:hover{
+    color: white;
+}
+
+.accordion-item button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-item p{
+    font-size: 16px;
+    text-align: left;
+    font-weight: normal;
+}
+
+
 /*Footer*/ 
 .footer{
     font-size: 15px;
