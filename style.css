@@ -179,6 +179,7 @@
     font-size: 14px;
     padding: 8px 10px;
     margin: auto;
+    border: 1px solid #595959;
 }
 
 .input-group{
@@ -191,6 +192,27 @@
     font-size: 14px;
     font-weight: 500;
     border-radius: 9px;
+    border: 1px solid #595959;
+
+}
+
+.form-control:focus {
+    border-color: #595959;
+    box-shadow: 0 0 0 0;
+} 
+
+.btn-enviar{
+    border: 1px solid #595959;
+    font-weight: 500;
+}
+
+.btn-enviar:hover{
+    border: 1px solid #595959;
+    font-weight: 500;
+    background-color: #005CAA;
+    color: white;
+    transition: 0.4s;
+    
 }
 
 /*sobre nos*/ 
