@@ -34,45 +34,47 @@
         <title>Faztech - Cursos Profissionalizantes</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-md p-1 w-100">
-            <div class="container">
-                <a class="navbar-brand" href="/index.html"><img
-                        src="imagens/logo_256px.png"
-                        alt="Marca"></a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target=".navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
-                        <li class="nav-item">
-                            <a class="nav-link "
-                                href="/index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link "
-                                href="/sobre-nos.html">Sobre nós</a>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                href="/nossos-cursos.html"
-                                class="nav-link">Cursos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                href="/fale-conosco.html"
-                                class="nav-link">Contato</a>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                href="/duvidas-frequentes.html"
-                                class="nav-link">Duvidas frequentes</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-md p-1"
+        style="background-color: white;">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html"><img
+                    src="imagens/logo.png " width="120" height="105"
+                    alt="Logo faztech"></a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse"
+                aria-label="menu de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "
+                            href="/sobre-nos.html">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="/nossos-cursos.html"
+                            class="nav-link">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="/fale-conosco.html"
+                            class="nav-link">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            href="/duvidas-frequentes.html"
+                            class="nav-link">Duvidas frequentes</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
 
         <main>
             <!-- Inicio dos banners -->
@@ -110,7 +112,7 @@
 
             <section class="container">
                 <!-- Inicio dos cards -->
-                <div class="cards">
+                <div class="cards my-5">
                     <h1 class="title-sections"> CONHEÇA NOSSOS CURSOS</h1>
 
                     <div class="row g-5 justify-content-center">
@@ -208,8 +210,52 @@
             </section>
 
             <!--Formulario-->
-            <section>
-                
+            <section class="row d-flex justify-content-evenly py-5 m-auto" style="background-color: #005CAA;">
+                <div class="text-white align-self-center col-11 col-sm-8 col-md-4 m-auto m-sm-0">
+                    <p>Os cursos da Faztech tem foco 100% prático. Após uma breve explanação teórica, os alunos aplicam os conceitos usando os equipamentos disponibilizados nos laboratórios, assim, desenvolvem habilidade e agilidade na resolução dos processos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et architecto repellat! Architecto, porro! Doloremque illo laudantium quidem ut aliquid!</p>
+                </div>
+                <div class="col-11 col-sm-8 col-md-4">
+                    <h2 class="text-white text-sm-start text-center">Fale conosco</h2>
+                    <form action class="d-flex flex-column col-9 m-auto m-sm-0">
+
+                        <div class="input-group mt-1">
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <i class="bi bi-person-fill"></i></div>
+                            </div>
+                            <input type="text" id="txtName"
+                                class="form-control mb-3" name="Nome"
+                                placeholder="Nome" style="border-left: none;">
+                        </div>
+    
+                        <div class="input-group">
+                            <div class="input-group-append">
+                                <div class="input-group-text"
+                                    style="background-color: #FFF"><i
+                                        class="bi bi-envelope-fill"></i>
+                                </div>
+                            </div>
+                            <input type="email" id="txtEmail"
+                                class="form-control mb-3" name="E-mail"
+                                placeholder="E-mail" style="border-left: none;">
+                        </div>
+    
+                        <div class="input-group">
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <i class="bi bi-telephone-fill"></i>
+                                </div>
+                            </div>
+                            <input type="tel" id="txtTel"
+                                class="form-control mb-3" name="Telefone"
+                                placeholder="Telefone" style="border-left: none;">
+                        </div>
+        
+                        <button type="submit"
+                        class="btn m-auto px-5 btn-enviar-white fw-bold" style="background-color: #FFF;">Enviar</button>
+                    </form>
+                </div>
             </section>
 
             <!--Diferenciais-->

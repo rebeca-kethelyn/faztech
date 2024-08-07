@@ -2,6 +2,12 @@
     font-family: "Montserrat", sans-serif;
 
 }
+
+.btn-enviar-white:hover {
+    box-shadow: 0px 0px 3px 2px #dbdee1d3;
+    transition: 0.2s;
+}
+
 /*Navegação*/ 
 .navbar-brand img{
     width: 120px;
