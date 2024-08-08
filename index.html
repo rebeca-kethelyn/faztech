@@ -216,8 +216,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus et architecto repellat! Architecto, porro! Doloremque illo laudantium quidem ut aliquid!</p>
                 </div>
                 <div class="col-11 col-sm-8 col-md-4">
-                    <h2 class="text-white text-sm-start text-center">Fale conosco</h2>
-                    <form action class="d-flex flex-column col-9 m-auto m-sm-0">
+                    <h2 class="text-white text-sm-start text-center mb-4" style="font-size: 28px;">Fale conosco</h2>
+                    <form action="https://formsubmit.co/629bb028676f8047dae270ba4a6ebcbb" method="POST" class="d-flex flex-column col-9 m-auto m-sm-0">
 
                         <div class="input-group mt-1">
                             <div class="input-group-append">
@@ -225,8 +225,8 @@
                                     <i class="bi bi-person-fill"></i></div>
                             </div>
                             <input type="text" id="txtName"
-                                class="form-control mb-3" name="Nome"
-                                placeholder="Nome" style="border-left: none;">
+                                class="form-control mb-3" name="nome"
+                                placeholder="Nome" style="border-left: none;" required>
                         </div>
     
                         <div class="input-group">
@@ -237,8 +237,8 @@
                                 </div>
                             </div>
                             <input type="email" id="txtEmail"
-                                class="form-control mb-3" name="E-mail"
-                                placeholder="E-mail" style="border-left: none;">
+                                class="form-control mb-3" name="email"
+                                placeholder="E-mail" style="border-left: none;" required>
                         </div>
     
                         <div class="input-group">
@@ -248,12 +248,20 @@
                                 </div>
                             </div>
                             <input type="tel" id="txtTel"
-                                class="form-control mb-3" name="Telefone"
-                                placeholder="Telefone" style="border-left: none;">
+                                class="form-control mb-3" name="telefone"
+                                placeholder="Telefone" style="border-left: none;" required>
                         </div>
         
                         <button type="submit"
                         class="btn m-auto px-5 btn-enviar-white fw-bold" style="background-color: #FFF;">Enviar</button>
+
+                        <input type="hidden" name="_subject" value="Novo contato">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/contato-recebido.html">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+
                     </form>
                 </div>
             </section>
