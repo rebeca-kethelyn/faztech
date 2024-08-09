@@ -298,4 +298,8 @@
     #chamada-reversa-mobile {
         flex-direction: column-reverse;
     }
+
+    .card-home{
+        margin-top: 20px;
+    }
 }
