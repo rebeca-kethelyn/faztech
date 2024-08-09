@@ -52,8 +52,20 @@
 .card-home > .card-body .card-title{
     font-size: 17px;
     text-align: center;
+    cursor: pointer;
+    text-decoration: none;
 }
 
+.card-home > .card-body .card-title a{
+    text-decoration: none;
+    color: #212529;
+}
+
+.card-home > .card-body .card-title a:hover{
+    color: #063470;
+    text-decoration: underline;
+
+}
 
 
 /*Container formulario e sobre*/ 
