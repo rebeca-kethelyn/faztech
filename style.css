@@ -72,6 +72,11 @@
     margin: 50px;
 }
 
+#formulario{
+    position: sticky;
+    top: 10%; 
+}
+
 
 /*Diferenciais*/ 
 
